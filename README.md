@@ -1,2 +1,5 @@
 # uslider
-Simple slider.
+
+Similiar with:
+
+http://www.apple.com/mac/

@@ -1,0 +1,66 @@
+<div id="u-slide" class="USlider">
+    <div class="slider">
+        <div class="slide-item">
+            <div class="content">
+                1
+            </div>
+        </div><div class="slide-item">
+            <div class="content">
+                2
+            </div>
+        </div><div class="slide-item">
+            <div class="content">
+                3
+            </div>
+        </div><div class="slide-item">
+            <div class="content">
+                4
+            </div>
+        </div><div class="slide-item">
+            <div class="content">
+                5
+            </div>
+        </div><div class="slide-item">
+            <div class="content">
+                6
+            </div>
+        </div><div class="slide-item">
+            <div class="content">
+                7
+            </div>
+        </div><div class="slide-item">
+            <div class="content">
+                8
+            </div>
+        </div>
+    </div>
+    <div class="prev"></div>
+    <div class="next"></div>
+</div>
+
+<link rel="stylesheet" type="text/css" href="USlide.css" >
+
+<style>
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #111;
+}
+.content {
+    display: flex;
+    height: 100%;
+    widows: 100%;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid #003832;
+}
+</style>
+<script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="USlide.js"></script>
+<script type="text/javascript">
+var us = undefined;
+$(function(){
+    console.log('Hello, bitches.');
+    $('#u-slide').USlide();
+});
+</script>
