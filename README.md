@@ -1,5 +1,5 @@
 # uslider
 
-Similiar with:
+jQuery slider similiar with:
 
 http://www.apple.com/mac/
